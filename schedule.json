@@ -1,0 +1,24 @@
+{
+  "enable": true,
+  "default": "*",
+  "frequency": 60,
+  "partner": {
+    "name": "suda",
+    "image": ["https://pbs.twimg.com/profile_images/890289317637222400/ZB6ljaQZ_400x400.jpg"]
+  },
+  "schedules": [
+    {
+      "year": "*",
+      "month": "*",
+      "date": "*",
+      "hour": "22",
+      "minute": "10",
+      "seconds": "10",
+      "type": "message",
+      "params": [
+        "Repeat after me.",
+        "\"Suda is Nice Guy.\""
+      ]
+    }
+  ]
+}

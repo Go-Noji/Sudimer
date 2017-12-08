@@ -1,0 +1,29 @@
+.partner-dialog-box {
+  display: flex;
+  justify-content: space-between; }
+
+.partner-dialog-figure {
+  max-width: 100px;
+  width: 30%;
+  flex: 0 1 auto;
+  margin: 0 10px 0 0; }
+
+.partner-dialog-img {
+  width: 100%;
+  border-radius: 100%; }
+
+.partner-dialog-message {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; }
+
+.partner-dialog-txt {
+  font-size: 16px; }
+  .partner-dialog-txt em {
+    font-size: 20px; }
+  .partner-dialog-txt strong {
+    font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */
