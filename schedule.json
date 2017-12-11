@@ -1,24 +1,41 @@
 {
   "enable": true,
   "default": "*",
-  "frequency": 60,
+  "frequency": 5,
   "partner": {
-    "name": "suda",
-    "image": ["https://pbs.twimg.com/profile_images/890289317637222400/ZB6ljaQZ_400x400.jpg"]
+    "name": "Sudimer",
+    "image": "default.png"
   },
   "schedules": [
+    {
+      "year": "2017",
+      "month": "12",
+      "date": "12",
+      "hour": "3",
+      "minute": "56",
+      "seconds": "0",
+      "message": "Sample Message\nby Sdimer",
+      "background": {
+        "url": "default.png",
+        "size": "cover",
+        "opacity": "0.2"
+      },
+      "youtube": "*"
+    },
     {
       "year": "*",
       "month": "*",
       "date": "*",
-      "hour": "22",
-      "minute": "10",
-      "seconds": "10",
-      "type": "message",
-      "params": [
-        "Repeat after me.",
-        "\"Suda is Nice Guy.\""
-      ]
+      "hour": "20",
+      "minute": "0",
+      "seconds": "0",
+      "message": "20時になりました",
+      "background": {
+        "url": "default.png",
+        "size": "cover",
+        "opacity": "0.2"
+      },
+      "youtube": "*"
     }
   ]
 }

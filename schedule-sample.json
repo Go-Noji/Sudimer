@@ -1,0 +1,67 @@
+/*
+ * Sdimerが読み取るスケジュール・設定ファイルのサンプルです。
+ * このファイルを編集してもSdumerに影響はありません
+ *
+ * enable: falseに設定すると動作しません  。
+ * default: デフォルト文字列です。毎時や初期設定を使用する場合にここで設定した文字を使います。
+ * frequency: 何秒ごとにスケジュールを監視するかの設定です。0.1秒以下も動作しますが、Bracketsに負荷をかける場合があります。
+ *
+ * partner: ダイアログに出てくる人物の設定です
+ *  image: ダイアログに設定される画像です。http://, もしくはhttps://始まりでオンライン、それ以外はこのjsonファイルと同階層のimagesフォルダを参照します。
+ *  name: ダイアログに表示される名前です
+ *
+ * schedules: 実行するアクションのデータです  。
+ *
+ *  year, month, date, hour, minute, seconds: それぞれ年月日時分秒の設定です。defaultで設定した文字を入力すると「毎○」の意味になります。なお、年は西暦、時は0～23、分秒は0～59で設定します。半角数字で入力してください。
+ *
+ *  message: ダイアログに表示される文章です。空（""）、もしくはdefault文字に設定するとダイアログが出現しません。
+ *
+ *  background: Bracketsのバックグラウンドに画像を差し込む設定です。
+ *    url: 差し込む画像のURLです。partnerのimageと同じく、オンラインとローカル(imagesディレクトリ)を区別します。空（""）、もしくはdefault文字に設定するとbackgroundは無視されます。
+ *    size: 画像サイズの設定をします。いわゆるbackground-sizeの値です。cover以外（containや100pxなど）は画像がリピートされます。空（""）、もしくはdefault文字に設定するとcoverが適用されます。
+ *    opacity: 透明度の設定をします。いわゆるopacityの値です。0～1の間で設定してください。空（""）、もしくはdefault文字に設定すると0.7が適用されます。
+ *
+ *  youtube: Bracketsのバックグラウンドでyoutubeを再生します。youtubeを視聴した際にアドレスバーに表示される"https://www.youtube.com/watch?v=「この部分」"を入力してください。空（""）、もしくはdefault文字場合は無視されます。
+*/
+
+{
+  "enable": true,
+  "default": "*",
+  "frequency": 5,
+  "partner": {
+    "name": "Sudimer",
+    "image": "default.png"
+  },
+  "schedules": [
+    {
+      "year": "2017",
+      "month": "12",
+      "date": "13",
+      "hour": "16",
+      "minute": "38",
+      "seconds": "20",
+      "message": "Sample Message\nby Sdimer",
+      "background": {
+        "url": "default.png",
+        "size": "cover",
+        "opacity": "0.2"
+      },
+      "youtube": "*"
+    },
+    {
+      "year": "*",
+      "month": "*",
+      "date": "*",
+      "hour": "20",
+      "minute": "0",
+      "seconds": "0",
+      "message": "20時になりました",
+      "background": {
+        "url": "default.png",
+        "size": "cover",
+        "opacity": "0.2"
+      },
+      "youtube": "*"
+    },
+  ]
+}
