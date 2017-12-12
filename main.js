@@ -697,12 +697,12 @@ define(function (require, exports, module) {
   AppInit.appReady(function(){
 
     //コマンドの登録
-    CommandManager.register('Sudimer: スケジュールの再読み込み', INIT_ID, init);
-    CommandManager.register('Sudimer: スケジュール設定ファイルを開く', OPEN_JSON_ID, openScheduleFile);
-    CommandManager.register('Sudimer: スケジュール設定ファイルのサンプルを開く', OPEN_SAMPLE_JSON_ID, openScheduleSampleFile);
+    CommandManager.register('Sudimer: Re-scan schedule', INIT_ID, init);
+    CommandManager.register('Sudimer: Open schedule.json', OPEN_JSON_ID, openScheduleFile);
+    CommandManager.register('Sudimer: Open schedule-sample.json', OPEN_SAMPLE_JSON_ID, openScheduleSampleFile);
 
     //メニューの追加
-    var menu = Menus.getMenu(Menus.AppMenuBar.HELP_MENU);
+    var menu = Menus.getMenu(Menus.AppMenuBar.FILE_MENU);
     var divider = menu.addMenuDivider(null, 'sdimer');
     menu.addMenuItem(INIT_ID, [], divider.LAST_IN_SECTION);
     menu.addMenuItem(OPEN_JSON_ID, [], divider.LAST_IN_SECTION);
