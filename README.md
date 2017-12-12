@@ -64,3 +64,6 @@ Congrats!
 
 [MIT](https://github.com/Go-Noji/Sudimer/blob/master/LICENSE)
 
+## Special thanks
+
+Shugo Suda
