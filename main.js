@@ -537,6 +537,7 @@ define(function (require, exports, module) {
       youtube.setAttribute('frameborder', '0');
       youtube.setAttribute('gesture', 'media');
       youtube.setAttribute('allow', 'encrypted-media');
+      backgroundElement.innerHTML = '';
       backgroundElement.appendChild(youtube);
     }
 
