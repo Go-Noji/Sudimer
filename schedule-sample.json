@@ -23,7 +23,6 @@
  *
  *  youtube: Bracketsのバックグラウンドでyoutubeを再生します。youtubeを視聴した際にアドレスバーに表示される"https://www.youtube.com/watch?v=「この部分」"を入力してください。空（""）、もしくはdefault文字場合は無視されます。
 */
-
 {
   "enable": true,
   "default": "*",
@@ -36,11 +35,11 @@
     {
       "year": "2017",
       "month": "12",
-      "date": "13",
-      "hour": "16",
-      "minute": "38",
-      "seconds": "20",
-      "message": "Sample Message\nby Sdimer",
+      "date": "12",
+      "hour": "20",
+      "minute": "25",
+      "seconds": "0",
+      "message": "Sample Message\nby Sudimer",
       "background": {
         "url": "default.png",
         "size": "cover",
@@ -55,13 +54,13 @@
       "hour": "20",
       "minute": "0",
       "seconds": "0",
-      "message": "20時になりました",
+      "message": "It's 20 o'clock.",
       "background": {
         "url": "default.png",
         "size": "cover",
         "opacity": "0.2"
       },
       "youtube": "*"
-    },
+    }
   ]
 }
