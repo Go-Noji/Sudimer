@@ -2,8 +2,6 @@
 
 Sudimer is an extension of Brackets which makes dialogs appear, changes the background, and plays Youtube according to a schedule that can be freely set.
 
-Sudimerは自由に設定できるスケジュールに沿ってダイアログを出したり、背景を変更したり、Youtubeを再生したりできるBracketsの拡張機能です。
-
 ## Description
 
 Do you have a partner?
