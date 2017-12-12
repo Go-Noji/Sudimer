@@ -14,7 +14,7 @@
       "hour": "20",
       "minute": "25",
       "seconds": "0",
-      "message": "Sample Message\nby Sudimer",
+      "message": "Sample Message<br>by Sudimer",
       "background": {
         "url": "default.png",
         "size": "cover",

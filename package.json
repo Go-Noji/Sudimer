@@ -3,7 +3,7 @@
   "title": "Sudimer",
   "description": "Sudimer is an extension of Brackets which makes dialogs appear, changes the background, and plays Youtube according to a schedule that can be freely set.",
   "homepage": "https://github.com/Go-Noji/Sudimer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Go Noji <gisosyadfe@gmail.com> (http://noji.wpblog.jp/)",
   "license": "MIT",
   "engines": {
